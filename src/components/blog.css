@@ -1,0 +1,12 @@
+
+.custom-card-left img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+}
+@media (max-width: 991px) {
+    .custom-card-left {
+      margin-top: 40px;
+    }
+  }
