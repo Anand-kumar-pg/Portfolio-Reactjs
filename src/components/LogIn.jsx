@@ -29,7 +29,7 @@ function LogIn() {
 
     return (
       <>
-      <Container style={{ marginTop: '8%' }}>
+      <Container style={{ marginTop: '100px' }}>
       <div className="container">
           <Form onSubmit={validateForm}>
               <h1 className="Mostudio">MOSTUDIO</h1>

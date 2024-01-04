@@ -25,7 +25,7 @@ function Home() {
                                 <p className="custom-card-tag">PORTRAIT</p>
                                 <h2 className="custom-card-title">Black & Gold Paint Face</h2>
                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
-                                <Link className="custom-card-Btn"  as={Link} to = "/detail/1">VIEW PORTFOLIO</Link >
+                                <Link className="custom-card-Btn"  as={Link} to = "/black/1">VIEW PORTFOLIO</Link >
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ function Home() {
                                 <h2 className="custom-card-title">Green Leaves</h2>
                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
                                     there live the blind texts. Separated they live in Bookmarksgrove.</p>
-                                <Link className="custom-card-Btn"  as={Link} to = "/detail/2">VIEW PORTFOLIO</Link >
+                                <Link className="custom-card-Btn"  as={Link} to = "/green/2">VIEW PORTFOLIO</Link >
                             </div>
                             <div className="custom-card-left">
                                 <img src="/images/img-2/work-2.jpg.webp" alt="" />
@@ -51,166 +51,52 @@ function Home() {
                             <div className="custom-card-right">
                                 <p className="custom-card-tag">ANIMALS</p>
                                 <h2 className="custom-card-title">Pug Puppy</h2>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
-                                <Link className="custom-card-Btn"  as={Link} to = "/detail/3">VIEW PORTFOLIO</Link >
+                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.there live the blind texts. Separated they live in Bookmarksgrove</p>
+                                <Link className="custom-card-Btn"  as={Link} to = "/animal/3">VIEW PORTFOLIO</Link >
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="container">
-                <a className="text-decoration-none" href="blog.html">
-                    <h2 className="mb-5 navbar-brand">Blogs</h2>
-                </a>
-                <div className="row" style={{ rowGap: '30px' }}>
-                    <div className="col-12 col-md-4">
-                        <div className="card">
-                            <div className="card-img-wrap">
-                                <img
-                                    src="images/img-10/pexels-photo-8467419.webp"
-                                    height="300px"
-                                    className="card-img-top"
-                                    alt="..."
-                                />
+                <h2 className="mb-5 navbar-brand">Featured Blogs</h2>
+                <div className="row">
+                    <div className="col-12">
+                        <div className="custom-card">
+                            <div className="custom-card-left">
+                                <img src="/images/img-16/pexels-photo-847393.jpeg" alt="" />
                             </div>
-                            <div className="card-body">
-                                <p className="card-text">
-                                    Some quick example text to build on the card title and make up
-                                    the bulk of the card's content.
-                                </p>
+                            <div className="custom-card-right">
+                                <p className="custom-card-tag">Turtle Swimming Underwater</p>
+                                <h2 className="custom-card-title">Turtle Swimming</h2>
+                                <p>Although much smaller than ours, a turtle’s lungs are incredibly powerful, allowing them to stay underwater for long periods. Turtles also breathe through their shells and scutes. They have red blood cells that absorb oxygen in the water while they swim, albeit in very small quantities.</p>
+                                <Link className="custom-card-Btn"  as={Link} to = "/turtle/1">VIEW PORTFOLIO</Link >
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4">
-                        <div className="card">
-                            <div className="card-img-wrap">
-                                <img
-                                    src="images/img-3/work-6.jpg.webp"
-                                    height="300px"
-                                    className="card-img-top"
-                                    alt="..."
-                                />
+                    <div className="col-12">
+                        <div className="custom-card">
+                            <div className="custom-card-right">
+                                <p className="custom-card-tag">Brown and Black Owl Staring</p>
+                                <h2 className="custom-card-title">Owl</h2>
+                                <p>Explore the various interpretations of owl staring, from its in different cultures to its role in spirituality and personal reflection. Uncover the and beliefs surrounding owl staring, including its connection to warnings and death omens. Understand the reasons behind owl staring and its potential as a form of recognition.</p>
+                                <Link className="custom-card-Btn"  as={Link} to = "/owl/2">VIEW PORTFOLIO</Link >
                             </div>
-                            <div className="card-body">
-                                <p className="card-text">
-                                    Some quick example text to build on the card title and make up
-                                    the bulk of the card's content.
-                                </p>
+                            <div className="custom-card-left">
+                                <img src="/images/img-17/owl-bird-eyes-eagle-owl-86596.jpeg" alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4">
-                        <div className="card">
-                            <div className="card-img-wrap">
-                                <img
-                                    src="images/img-8/pexels-photo-1526410.jpeg"
-                                    height="300px"
-                                    className="card-img-top"
-                                    alt="..."
-                                />
+                    <div className="col-12">
+                        <div className="custom-card">
+                            <div className="custom-card-left">
+                                <img src="/images/img-18/antelope-nature-flowers-meadow-52961.jpeg" alt="" />
                             </div>
-                            <div className="card-body">
-                                <p className="card-text">
-                                    Some quick example text to build on the card title and make up
-                                    the bulk of the card's content.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-md-4">
-                        <div className="card">
-                            <div className="card-img-wrap">
-                                <img
-                                    src="images/img-7/pexels-photo-1020016.jpeg"
-                                    height="300px"
-                                    className="card-img-top"
-                                    alt="..."
-                                />
-                            </div>
-                            <div className="card-body">
-                                <p className="card-text">
-                                    Some quick example text to build on the card title and make up
-                                    the bulk of the card's content.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="container">
-                <a className="text-decoration-none" href="Gallery.html">
-                    <h2 className="mb-5 navbar-brand">Works</h2>
-                </a>
-                <div className="row" style={{ rowGap: '30px' }}>
-                    <div className="col-12 col-md-4">
-                        <div className="card">
-                            <div className="card-img-wrap">
-                                <img
-                                    src="images/img-11/amazing-animal-beautiful-beautifull.jpg"
-                                    height="300px"
-                                    className="card-img-top"
-                                    alt="..."
-                                />
-                            </div>
-                            <div className="card-body">
-                                <p className="card-text">
-                                    Some quick example text to build on the card title and make up
-                                    the bulk of the card's content.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-md-4">
-                        <div className="card">
-                            <div className="card-img-wrap">
-                                <img
-                                    src="images/img-13/pexels-photo-4553618.jpeg"
-                                    height="300px"
-                                    className="card-img-top"
-                                    alt="..."
-                                />
-                            </div>
-                            <div className="card-body">
-                                <p className="card-text">
-                                    Some quick example text to build on the card title and make up
-                                    the bulk of the card's content.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-md-4">
-                        <div className="card">
-                            <div className="card-img-wrap">
-                                <img
-                                    src="images/img-14/pexels-photo-1234035.jpeg"
-                                    height="300px"
-                                    className="card-img-top"
-                                    alt="..."
-                                />
-                            </div>
-                            <div className="card-body">
-                                <p className="card-text">
-                                    Some quick example text to build on the card title and make up
-                                    the bulk of the card's content.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-12 col-md-4">
-                        <div className="card">
-                            <div className="card-img-wrap">
-                                <img
-                                    src="images/img-6/work-9.jpg.webp"
-                                    height="300px"
-                                    className="card-img-top"
-                                    alt="..."
-                                />
-                            </div>
-                            <div className="card-body">
-                                <p className="card-text">
-                                    Some quick example text to build on the card title and make up
-                                    the bulk of the card's content.
-                                </p>
+                            <div className="custom-card-right">
+                                <p className="custom-card-tag">Antelopes on Green Field</p>
+                                <h2 className="custom-card-title">Antelopes</h2>
+                                <p>We had walked only a few hundred meters from our house when a four-horned antelope broke cover from a tiny bush and darted toward the distant thicket of trees. Its golden fur stood out as it flew across the green wheat fields. The deep green colour of the wheat crop on the left side of the path was a stark contrast to the exposed black of the fallow field on the other side. The air still felt warm and sparse from the afternoon sun. In a few days, the wheat will mature and the gold of the goat-sized antelope will melt in the gold of the dry wheat stems. </p>
+                                <Link className="custom-card-Btn"  as={Link} to = "/antelopes/3">VIEW PORTFOLIO</Link >
                             </div>
                         </div>
                     </div>
